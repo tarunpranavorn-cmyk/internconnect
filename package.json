@@ -1,21 +1,22 @@
 {
-  "name": "internconnect",
+  "name": "internconnect-backend",
   "version": "1.0.0",
-  "description": "InternConnect - Full Stack Internship Discovery Platform",
-  "main": "backend/server.js",
+  "description": "REST API backend for InternConnect Internship Discovery Platform",
+  "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "build": "cd backend && npm install",
-    "test": "node backend/test_api.js && node test_frontend.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
-  "keywords": ["internship", "careers", "express", "vanilla-js", "full-stack"],
+  "keywords": [
+    "internship",
+    "internconnect",
+    "express",
+    "rest-api"
+  ],
   "author": "InternConnect Team",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }
