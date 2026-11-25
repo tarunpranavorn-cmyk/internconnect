@@ -1,0 +1,21 @@
+{
+  "name": "internconnect",
+  "version": "1.0.0",
+  "description": "InternConnect - Full Stack Internship Discovery Platform",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "cd backend && npm install",
+    "test": "node backend/test_api.js && node test_frontend.js"
+  },
+  "keywords": ["internship", "careers", "express", "vanilla-js", "full-stack"],
+  "author": "InternConnect Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
